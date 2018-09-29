@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SB Admin - Dashboard</title>
+
+    <!-- Bootstrap core CSS-->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Page level plugin CSS-->
+    <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+      <div class="logo-btn">
+        <a class="navbar-brand mr-1" href="dashboard-01.html">Circle Logo</a>
+
+        <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <!-- Navbar Search -->
+      <!-- <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-primary" type="button">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </form> -->
+
+      <!-- Navbar -->
+      <div class="navbar-custom-menu">
+          <ul class="nav navbar-nav">
+            <li class="dropdown user user-menu">
+              <a href="javascript:;" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="false">
+                <img src="images/128.jpg" alt="User Image" class="user-image">
+                <span class="hidden-xs">Beth Johns</span>
+              </a>
+            </li> 
+          </ul>
+      </div>
+
+    </nav>
+
+    <div id="wrapper">
+
+      <!-- Sidebar -->
+      <ul class="sidebar navbar-nav">
+        <li class="header">MAIN NAVIGATION<li>
+        <li class="nav-item active">
+          <a class="nav-link" href="dashboard-01.html">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Home</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="course.html">
+            <i class="fas fa-fw fa-chart-area"></i>
+            <span>Course 001</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fas fa-fw fa-chart-area"></i>
+            <span>Course 002</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="fas fa-fw fa-table"></i>
+            <span>Course 003</span></a>
+        </li>
+      </ul>
+
+      <div id="content-wrapper">
+        <div class="container-fluid">
+          <div class="content-wrapper">
+            <section class="content-header">
+              <h1>
+              DASHBOARD
+              <small>Version 2.0</small>
+              </h1>
+              <ol class="breadcrumb">
+                <li>
+                  <a href="javascript:;">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    Home
+                  </a>
+                </li>
+              </ol>
+            </section>
+            <section class="content">
+              <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                      <div class="panel-heading color-yeallw" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            News <label>3</label>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                          <div class="box-body table-responsive">
+                            <table class="table sales-left">
+                              <thead class="thead-light">
+                                <tr>
+                                  <th scope="col">Course Name</th>
+                                  <th scope="col">Download</th>
+                                  <th scope="col">Notes</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Course 01 - install MongoDB</td>
+                                  <td><a href="#">Download</a></td>
+                                  <td>90,80,90,-70,61,-83,63</td>
+                                </tr>
+                                <tr>
+                                  <td>Course 01 - Create first MONGO DB</td>
+                                  <td><a href="#">Download</a></td>
+                                  <td>90,80,90,-70,61,-83,68</td>
+                                </tr>
+                                <tr>
+                                  <td>Course 01 - bla bla bla</td>
+                                  <td><a href="#">Download</a></td>
+                                  <td>90,80,90,-70,61,-83,68</td>
+                                </tr>
+                                <tr>
+                                  <td>Course 01 - Bla bla bla</td>
+                                  <td><a href="#">Download</a></td>
+                                  <td>90,80,90,-70,61,-83,63</td>
+                                </tr>
+                                <tr>
+                                  <td>Course 01 - Bla Bla bla</td>
+                                  <td><a href="#">Download</a></td>
+                                  <td>90,80,90,-70,61,-83,63</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                      <div class="panel-heading color-red" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsethree" aria-expanded="false" aria-controls="collapsethree">
+                            News <label>3</label>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapsethree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                          <div class="box-body table-responsive">
+                            <table class="table sales-left">
+                              <thead class="thead-light">
+                                <tr>
+                                  <th scope="col">Course Name</th>
+                                  <th scope="col">Download</th>
+                                  <th scope="col">Notes</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Course 01 - install MongoDB</td>
+                                  <td><a href="#">Download</a></td>
+                                  <td>90,80,90,-70,61,-83,63</td>
+                                </tr>
+                                <tr>
+                                  <td>Course 01 - Create first MONGO DB</td>
+                                  <td><a href="#">Download</a></td>
+                                  <td>90,80,90,-70,61,-83,68</td>
+                                </tr>
+                                <tr>
+                                  <td>Course 01 - bla bla bla</td>
+                                  <td><a href="#">Download</a></td>
+                                  <td>90,80,90,-70,61,-83,68</td>
+                                </tr>
+                                <tr>
+                                  <td>Course 01 - Bla bla bla</td>
+                                  <td><a href="#">Download</a></td>
+                                  <td>90,80,90,-70,61,-83,63</td>
+                                </tr>
+                                <tr>
+                                  <td>Course 01 - Bla Bla bla</td>
+                                  <td><a href="#">Download</a></td>
+                                  <td>90,80,90,-70,61,-83,63</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <!-- /.container-fluid -->
+      </div>
+      <!-- /.content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="login.html">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Page level plugin JavaScript-->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+    <script src="vendor/datatables/jquery.dataTables.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin.min.js"></script>
+
+    <!-- Demo scripts for this page-->
+    <script src="js/demo/datatables-demo.js"></script>
+    <script src="js/demo/chart-area-demo.js"></script>
+
+  </body>
+
+</html>
